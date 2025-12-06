@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="portfolio, projects, skills, creativity, freelance">
+    <meta name="description" content="This is my personal portfolio showcasing web development projects done with HTML. Explore my work and contant me for collaborations">
+    <title>Zita portfolio</title>
+</head>
+<body>
+    <header class="header_area">
+       <nav class="navigation_area">
+            <ul class="myNavLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#projects">Some of my projects</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+       </nav>
+    </header>
+    <hr>
+    <section id="home">
+            <div class="profile">
+            <h1 class="intro">I'm web developer<br><i>Zita Ikeanyibe</i></h1>
+            <img src="./img/Asher.jpg" alt="Zita's Profile picture" width="30%" height="30%">
+            <p class="what_i_do">Every project I build reflects on <strong>growth</strong>.<br> I pay attention to <em>structure, clarity, and how people interact with a page</em>. <br> I want every piece of my work to feel <em>intentional, organized, and easy</em> for everyone to explore.</p>
+            <blockquote>
+                "Learn. Build. Improve. Repeat"
+            </blockquote>
+       </div>
+    </section>
+    <hr>
+    <section id="aboutMe">
+            <h2 class="aboutMe">About Me</h2>
+             <p class="me">Hi, I'm Zita, a growing web developer who enjoys creating clean and simple web pages. <br>
+             Every new file I create teaches me something new. <br>
+             I enjoy learning step-by-step, experimenting with ideas, and watching my skills grow with every project. <br>
+             This portfolio is more than just code; it's a collection of my progress, my curiosity, and my journey into tech. <br>
+             I'm open to learning, open to challenges, and excited to keep building!
+             </p>
+             <hr>
+    </section>
+    <section id="skills">
+            <h2 class="mySkills">My Skills</h2>
+            <h3 class="typeOfSkill">Technical Skills</h3>
+            <ol class="skills">
+               <li> HTML5(structure, tags, forms, semantic elements)</li>
+               <li>Basic CSS(Styling, layouts, colors, fonts)</li>
+               <li>Version control(Git & Github)</li>
+               <li>Basic command prompt or Terminal usage</li>
+               <li>Linking pages and structuring projects properly</li>
+            </ol>
+            <h3 class="typeOfSkill">Soft skills</h3>
+            <ul class="skills">
+                <li>Attention to detail</li>
+                <li>Good coomunication</li>
+                <li>Creativity</li>
+                <li>Problem-solving</li>
+                <li>Eager to learn</li>
+                <li>Consistency and patience</li>
+            </ul>
+    </section>
+    <hr>
+    <section id="projects">
+        <h2 class="myProjects">My Projects</h2>
+        <div class="project_one">
+            <h3 class="theProjects">Debit Card</h3>
+            <figure>
+                <img src="./img/Screenshot 2024-05-02 222751.png" alt=" Screenshot of debit card project built with html and css" width="15%">
+                <figcaption>
+                    This project is a clean, responsive debit card interface designed using <strong>HTML</strong> and <strong>CSS</strong>. It demonstrates my layout skills, styling techniques, attention to detail in creating a realistic card design.
+                </figcaption>
+            </figure>
+            <p>
+                <a href="/projects/Debit-card/index.html" target="_blank">View Project</a>
+            </p>
+        </div>
+        <div class="project_two">
+            <h3 class="theProjects">Loretto Academy registration form</h3>
+            <figure>
+                <img src="./img/Screenshot 2025-12-06 175537.png" alt="Screenshot of Lortto academy registration form" width="15%">
+                <figcaption>
+                    This project is a clean and functional registration form for Loretto Academy, built using <strong>HTML</strong> and <strong>CSS</strong>. The design focuses on clarity, user-friendly layout, and resposiveness, making it easy for users to fill out and submit information.
+                </figcaption>
+            </figure>
+            <p>
+                <a href="/projects/CSS Forms/" target="_blank">View Project</a>
+            </p>
+        </div>
+        <div class="project_three">
+            <h3 class="theProjects">ZEECLUB</h3>
+            <figure>
+                <img src="./img/banner.png" alt="zeeclub banner image" width="15%">
+                <figcaption>
+                    ZEECLUB house is a fun, interactive playhouse design for children, highlighting colorful layouts and engaging user experience
+                </figcaption>
+            </figure>
+            <p> 
+                <a href="./projects/Zitaclub/" target="_blank">View Project</a>
+            </p>
+        </div>
+    </section>
+    <hr>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="">
+            <fieldset>
+                <legend>Personal info</legend>
+            <p>
+                <label for="fullName">Full name:</label>
+                <input type="text" name="fullName" id="fullName" autofocus autocomplete="on" required placeholder="Enter your full name">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="fullName" id="email" autocomplete="on" required placeholder="enter your email">
+            </p>
+            <p>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="8" cols="40" placeholder="Type your message..."></textarea>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Why are you contacting me?</legend>
+            <p>
+                <input type="radio" name="inquiry" id="projectCollaboration" value="projectcollaboration">
+            <label for="project collaboration">Project Collaboration</label>
+            </p>
+            <p>
+                <input type="radio" name="inquiry" id="freelanceWork" value="freelanceWork">
+            <label for="freelanceWork">Freelance Work</label>
+            </p>
+            <p>
+                <input type="radio" name="inquiry" id="feeback" value="feeback">
+            <label for="feeback">Feedback</label>
+            </p>
+            <p>
+                <input type="radio" name="inquiry" id="jobOpportunities" value="job Opportunities">
+            <label for="jobOpportunities">Job Opportunities</label>
+            </p>
+            <p>
+                <input type="radio" name="inquiry" id="mentorship" value="mentorship">
+            <label for="mentorship">Mentorship</label>
+            </p>
+            <p>
+                <input type="radio" name="inquiry" id="other" value="other">
+                <label for="other">Other</label>
+            </p>
+        </fieldset>
+        <p>
+        <button type="submit">Submit</button>
+        </p>
+        </form>
+    </section>
+    <section id="skillLevels">
+        <table>
+            <caption>My Professional Skills Overview</caption>
+            <thead>
+              <tr>
+                <th>Skill</th>
+                <th>Proficiency Level</th>
+                <th>Experience</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Advanced</td>
+                    <td>2 years</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediate</td>
+                    <td>1 years</td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td>Beginner</td>
+                    <td>6 months</td>
+                </tr>
+                <tr>
+                    <td>React.js</td>
+                    <td>Beginner</td>
+                    <td>1 month</td>
+                </tr>
+                <tr>
+                    <td>Graphic design</td>
+                    <td>Beginner</td>
+                    <td>3 months</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer id="footer_area">
+        <p><strong>Copyright &copy;2025; Designed by</strong> <i>ZITA</i></p>
+        <h4>My Social Media Handles</h4>
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Whatsapp</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
