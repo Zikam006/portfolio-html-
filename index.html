@@ -6,6 +6,7 @@
     <meta name="keyword" content="portfolio, projects, skills, creativity, freelance">
     <meta name="description" content="This is my personal portfolio showcasing web development projects done with HTML. Explore my work and contant me for collaborations">
     <title>Zita portfolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header class="header_area">
@@ -19,30 +20,34 @@
             </ul>
        </nav>
     </header>
-    <hr>
-    <section id="home">
-            <div class="profile">
-            <h1 class="intro">I'm web developer<br><i>Zita Ikeanyibe</i></h1>
-            <img src="./img/Asher.jpg" alt="Zita's Profile picture" width="30%" height="30%">
-            <p class="what_i_do">Every project I build reflects on <strong>growth</strong>.<br> I pay attention to <em>structure, clarity, and how people interact with a page</em>. <br> I want every piece of my work to feel <em>intentional, organized, and easy</em> for everyone to explore.</p>
-            <blockquote>
-                "Learn. Build. Improve. Repeat"
-            </blockquote>
+    <section class="home">
+            <div class="container">
+                <div class="profile_img">
+                <img src="./img/img_2-removebg-preview.png" alt="My profile picture" width="60%">
+                </div>
+                <div class="intro">
+                <h1 class="profile"><i>I'm Zita.</i><br>A web developer.</h1>
+                <p class="profile">Every project I build reflects<strong> growth</strong>.<br> I pay attention to <em>structure, clarity, and how people interact with a page</em>. <br> I want every piece of my work to feel <em>intentional, organized, and easy</em> for everyone to explore.</p>
+                <blockquote>
+                    "Learn. Build. Improve. Repeat"
+                </blockquote>
+            </div>
        </div>
     </section>
-    <hr>
-    <section id="aboutMe">
-            <h2 class="aboutMe">About Me</h2>
-             <p class="me">Hi, I'm Zita, a growing web developer who enjoys creating clean and simple web pages. <br>
-             Every new file I create teaches me something new. <br>
-             I enjoy learning step-by-step, experimenting with ideas, and watching my skills grow with every project. <br>
-             This portfolio is more than just code; it's a collection of my progress, my curiosity, and my journey into tech. <br>
-             I'm open to learning, open to challenges, and excited to keep building!
-             </p>
-             <hr>
-    </section>
-    <section id="skills">
-            <h2 class="mySkills">My Skills</h2>
+
+    <section class="contain">
+        <section class="aboutMe thingsICanDo">
+                <h2 class="aboutMe heading">About Me</h2>
+                <p class="thingsICanDoParagraph">Hi, I'm Zita, a growing web developer who enjoys creating clean and simple web pages. <br>
+                Every new file I create teaches me something new. <br>
+                I enjoy learning step-by-step, experimenting with ideas, and watching my skills grow with every project. <br>
+                This portfolio is more than just code; it's a collection of my progress, my curiosity, and my journey into tech. <br>
+                I'm open to learning, open to challenges, and excited to keep building!
+                </p>
+        
+        </section>
+        <section class="skills thingsICanDo">
+            <h2 class="mySkills heading">My Skills</h2>
             <h3 class="typeOfSkill">Technical Skills</h3>
             <ol class="skills">
                <li> HTML5(structure, tags, forms, semantic elements)</li>
@@ -57,59 +62,60 @@
                 <li>Good coomunication</li>
                 <li>Creativity</li>
                 <li>Problem-solving</li>
-                <li>Eager to learn</li>
+                <li>Eagerness to learn</li>
                 <li>Consistency and patience</li>
             </ul>
     </section>
-    <hr>
-    <section id="projects">
-        <h2 class="myProjects">My Projects</h2>
+
+    <section class="projects thingsICanDo">
+        <h2 class="myProjects heading">My Projects</h2>
         <div class="project_one">
             <h3 class="theProjects">Debit Card</h3>
             <figure>
-                <img src="./img/Screenshot 2024-05-02 222751.png" alt=" Screenshot of debit card project built with html and css" width="15%">
+                <img src="./img/Screenshot 2024-05-02 222751.png" alt=" Screenshot of debit card project built with html and css" width="10%">
                 <figcaption>
                     This project is a clean, responsive debit card interface designed using <strong>HTML</strong> and <strong>CSS</strong>. It demonstrates my layout skills, styling techniques, attention to detail in creating a realistic card design.
                 </figcaption>
             </figure>
-            <p>
+            <p class="viewProjectBtn">
                 <a href="/projects/Debit-card/index.html" target="_blank">View Project</a>
             </p>
         </div>
         <div class="project_two">
             <h3 class="theProjects">Loretto Academy registration form</h3>
             <figure>
-                <img src="./img/Screenshot 2025-12-06 175537.png" alt="Screenshot of Lortto academy registration form" width="15%">
+                <img src="./img/Screenshot 2025-12-06 175537.png" alt="Screenshot of Lortto academy registration form" width="10%">
                 <figcaption>
-                    This project is a clean and functional registration form for Loretto Academy, built using <strong>HTML</strong> and <strong>CSS</strong>. The design focuses on clarity, user-friendly layout, and resposiveness, making it easy for users to fill out and submit information.
+                    This project is a clean and functional registration form for Loretto Academy, built using <strong>HTML</strong> and <strong>CSS</strong>. 
                 </figcaption>
             </figure>
-            <p>
+            <p class="viewProjectBtn">
                 <a href="/projects/CSS Forms/" target="_blank">View Project</a>
             </p>
         </div>
         <div class="project_three">
             <h3 class="theProjects">ZEECLUB</h3>
             <figure>
-                <img src="./img/banner.png" alt="zeeclub banner image" width="15%">
+                <img src="./img/banner.png" alt="zeeclub banner image" width="10%">
                 <figcaption>
                     ZEECLUB house is a fun, interactive playhouse design for children, highlighting colorful layouts and engaging user experience
                 </figcaption>
             </figure>
-            <p> 
+            <p class="viewProjectBtn"> 
                 <a href="./projects/Zitaclub/" target="_blank">View Project</a>
             </p>
         </div>
     </section>
-    <hr>
+</section>
+
     <section id="contact">
-        <h2>Contact Me</h2>
+        <h2 class="heading">Contact Me</h2>
         <form action="">
             <fieldset>
                 <legend>Personal info</legend>
             <p>
                 <label for="fullName">Full name:</label>
-                <input type="text" name="fullName" id="fullName" autofocus autocomplete="on" required placeholder="Enter your full name">
+                <input type="text" name="fullName" id="fullName" autocomplete="on" required placeholder="Enter your full name">
             </p>
             <p>
                 <label for="email">Email:</label>
@@ -192,9 +198,8 @@
         </table>
     </section>
     <footer id="footer_area">
-        <p><strong>Copyright &copy;2025; Designed by</strong> <i>ZITA</i></p>
-        <h4>My Social Media Handles</h4>
-        <ul>
+        <p class="copyright"><strong>Copyright &copy;2025; Designed by</strong> <i>ZITA</i></p>
+        <ul class="footer_ul">
             <li><a href="#">Instagram</a></li>
             <li><a href="#">Facebook</a></li>
             <li><a href="#">Whatsapp</a></li>
