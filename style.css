@@ -50,7 +50,7 @@ body{
 }
 
 /* --------SECTION STYLES-------- */
-section.home {
+section#home {
     background-image: linear-gradient(rgba(108, 45, 0, 0.5), rgba(108, 45, 0, 0.5)), url(./img/c393b42469fbc1ae0c1f3d70d74daf58eef9535f.jpg);
     background-position: center;
     background-size: cover;
@@ -92,8 +92,7 @@ blockquote{
 }
 /* ------------SECTION STYLES------------ */
 
-
-section.contain{
+section#aboutMe{
     display: flex;
     width: 100%;
     
@@ -169,9 +168,7 @@ section#skillLevels{
    padding: 2.5rem;
    border: 1px solid #6c2d00;
 }
-/* section#skillLevels{
-     border-radius: 0 0 15px 15px;
-} */
+
 form,
 input,
 button{
@@ -190,11 +187,15 @@ input, textarea{
     margin: 0.8rem 0.2rem;
    
 }
-input:hover,
+input[type="text"]:hover,
+input[type="email"]:hover,
 textarea:hover{
      border: 3px solid #6c2d00;
      box-shadow: 2px 2px 8px 2px #3d1900;
      transition: 0.8s ease-in-out;
+}
+input[type="radio"]{
+    accent-color: #6c2d00;
 }
 button{
     background-color: #6c2d00;
@@ -292,7 +293,7 @@ footer li{
         border: none;
         border-bottom: 2px solid #ffefd5;
      }
-    section.home{
+    section#home{
         background-image: linear-gradient(rgba(108, 45, 0, 0.5), rgba(108, 45, 0, 0.5));
     }
 
@@ -314,7 +315,7 @@ footer li{
     p.profile{
       margin: 0 .5rem;
     }
-    section.contain{
+    section#aboutMe{
         flex-direction: column;
         width: 100%;
     }
