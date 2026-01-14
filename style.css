@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 /* ----------RESET STYLES------------ */
 *{
     margin: 0;
@@ -7,7 +11,7 @@
 
 /* ---------GENERAL STYLES----------- */
 body{
-    font-family: cursive;
+    font-family: "Roboto", sans-serif;
     font-size: 1rem;
     background-color:#ffefd5;
     min-height: 100vh;
@@ -110,22 +114,27 @@ blockquote{
    /*  box-shadow: 2px 2px 8px 2px #3d1900; */
 }
 
-h2.heading, caption{
+h2.heading{
     color: #3d1900;
-    font-size: 1.5rem;
-    text-decoration: underline;
+    font-size: 2rem;
     margin-bottom: 0.3em;
+    text-transform: uppercase;
 }
 .thingsICanDoParagraph,
 .skills, 
 .projects,
  form, 
- table{
+ table,
+ .project_one,
+ .project_three,
+ .project_two{
     color: #3d1900dd;
     line-height: 1.8;
 }
 h3.theProjects, h3.typeOfSkill{
-    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #3d1900dd;
 }
 ol.skills{
     margin-bottom: 1em;
@@ -134,11 +143,11 @@ ol.skills{
 /* ---------PROJECT SECTION---------- */
 .viewProjectBtn a{
     text-decoration: none;
-    background-color: #6c2d00;
-    color: #ffefd5;
+    background-color: transparent;
+    color: #6c2d00;
     padding: 8px;
     margin-bottom: 2em;
-    border: 2px solid #000;
+    border: 3px solid #6c2d00;
     border-radius: 8px;
     
 }
@@ -152,6 +161,7 @@ button:hover,
 button:active, 
 button:focus {
     background-color: #913d00;
+    color: #ffefd5;
     transition: 0.8s ease-in-out;
     box-shadow: 1px 1px 10px 1px #6c2d00;
 }
